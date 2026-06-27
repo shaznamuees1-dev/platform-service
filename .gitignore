@@ -7,3 +7,9 @@ __pycache__/
 *.tfstate.backup
 .terraform/
 gcp-key.json
+
+windows-amd64/
+kind.exe
+helm.exe
+helm.zip
+kind.zip
