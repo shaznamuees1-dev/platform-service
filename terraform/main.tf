@@ -85,5 +85,6 @@ resource "aws_instance" "platform_ec2" {
 
   tags = {
     Name = "platform-service-terraform"
+    Environment = "dev"
   }
 }
