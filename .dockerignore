@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+terraform/
+platform-chart/
+k8s/
+*.zip
+*.exe
+helm.exe
+kind.exe
+terraform.exe

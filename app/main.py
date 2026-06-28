@@ -8,4 +8,4 @@ def health():
 
 @app.get('/info')
 def info():
-    return {'service': 'platform-service', 'version': '1.0'}
+    return {'service': 'platform-service', 'version': '1.1'}
