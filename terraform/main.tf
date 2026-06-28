@@ -84,7 +84,7 @@ resource "aws_instance" "platform_ec2" {
   subnet_id              = aws_subnet.platform_subnet.id
 
   tags = {
-    Name = "platform-service-terraform"
+    Name        = "platform-service-terraform"
     Environment = "dev"
   }
 }
